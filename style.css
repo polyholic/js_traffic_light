@@ -1,0 +1,28 @@
+.ampel {
+    position: absolute;
+    border-radius: 20px;
+    background: black;
+    width: 100px;
+    height: 200px;
+}
+
+.licht {
+    margin: 20px auto;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.rot {
+    background: red;
+}
+
+.gelb {
+    background: yellow;
+}
+
+.gruen {
+    background: green;
+}
