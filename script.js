@@ -11,8 +11,16 @@ class TrafficLight {
             console.log(this.colors[1]);
         }, 1000);
     }
+
+    shift() {
+        let i = 0;
+        setInterval(() => {
+
+        }, 1000);
+    }
 }
 
 let light1 = new TrafficLight();
 
-light1.outOfOrder();
+light1.shift();
+
