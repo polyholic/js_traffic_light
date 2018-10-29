@@ -3,7 +3,7 @@
 class TrafficLight {
 
     constructor() {
-        this.colors = ["red", "yellow", "green"]
+        this.colors = ["red", "yellow", "green", "yellow"]
     }
 
     outOfOrder() {
@@ -15,7 +15,12 @@ class TrafficLight {
     shift() {
         let i = 0;
         setInterval(() => {
+            if (i >= 4) {
+                i = 0;
+            }
 
+            console.log(this.colors[i]);
+            i++;
         }, 1000);
     }
 }
